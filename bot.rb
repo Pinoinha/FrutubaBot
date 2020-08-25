@@ -1,6 +1,6 @@
 require 'telegram_bot'
 
-bot = TelegramBot.new(token: '[1389443389:AAGXu8DUoNexEeitbqQoVMs6DFRDCOKdrbI]')
+bot = TelegramBot.new(token: '[tokenVaiAqui]')
   bot.get_updates(fail_silently: true) do |message|
   puts "@#{message.from.username}: #{message.text}"
   command = message.get_command_for(bot)
