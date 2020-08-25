@@ -1,0 +1,3 @@
+# Arquivos com a extensão .lock serão ignorados.
+
+*.lock
